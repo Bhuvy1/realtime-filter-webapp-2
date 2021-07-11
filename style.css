@@ -1,0 +1,24 @@
+canvas{
+    animation-name :  ani2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border: blue;
+}
+
+@keyframes ani2
+{
+    0%
+    {
+        box-shadow : 5px 5px 38px red;
+    }
+
+    45%
+    {
+        box-shadow : 5px 5px 38px blue;
+    }
+
+    100%
+    {
+        box-shadow : 5px 5px 38px yellow;
+    }
+}
